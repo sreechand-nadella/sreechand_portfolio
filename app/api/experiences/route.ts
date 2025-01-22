@@ -1,10 +1,6 @@
 import { NextResponse } from 'next/server'
 
 const experiences = [
-
-  {
-
-  },
   {
     title: 'Full-stack Developer',
     company: 'BigCommerce',
@@ -87,7 +83,7 @@ const experiences = [
 'Integrated secure authentication protocols (OAuth 2.0, JWT, SAML) and implemented RBAC and ABAC for robust endpoint security in line with industry standards.',
 'Deployed containerized applications with Docker and managed multi-node Kubernetes clusters, improving fault tolerance and scalability by 30%, while implementing advanced networking and security features, resulting in a 25% reduction in system downtime.',
 'Spearheaded comprehensive testing using JUnit, Mockito, JMeter, and automated UI tests with Selenium; improved code reliability and reduced production defects by 25% with microservices contract testing.',
-'Optimized client-server interactions by integrating JavaScript and front-end frameworks with RESTful APIs, achieving a 15% boost in performance through server-side rendering (SSR) and PWA features.'
+'Optimized client-server interactions by integrating JavaScript and front-end frameworks with RESTful APIs, achieving a 15% boost in performance through server-side rendering (SSR) and PWA features.',
     ],
     location: 'India',
     link: { url: 'https://maxgentechnologies.com/', label: 'Maxgen Technologies' },
