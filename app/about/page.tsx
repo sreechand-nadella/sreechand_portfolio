@@ -2,7 +2,7 @@
 
 import { Container } from '@/components/Container'
 import { motion } from 'framer-motion'
-import { FaGraduationCap, FaUniversity, FaSchool } from 'react-icons/fa'
+import { FaGraduationCap, FaUniversity } from 'react-icons/fa'
 import { Card } from '@/components/ui/card'
 import * as Icons from 'react-icons/fa'
 import * as SiIcons from 'react-icons/si'
@@ -25,7 +25,7 @@ const education = [
     startDate: 'Aug 2022',
     endDate: 'May 2024',
     description: 'Specialization in Machine Learning and Data Science',
-    details: 'GPA: 3.9/4.0',
+    details: 'GPA: 3.8/4.0',
     icon: FaGraduationCap,
     color: '#00529B',
     bgColor: '#F2F6FA',

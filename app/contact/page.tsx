@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
-import { Phone, Mail, Facebook, Github, Twitter } from 'lucide-react'
+import { Phone, Mail,  Github, Twitter } from 'lucide-react'
 
 export default function Contact() {
   const [formData, setFormData] = useState({
