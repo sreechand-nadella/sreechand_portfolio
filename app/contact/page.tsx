@@ -58,15 +58,12 @@ export default function Contact() {
                   </div>
                 </div>
                 <div className="mt-8 flex space-x-6">
-                  <a href="https://facebook.com" className="text-white hover:text-blue-200 transition-colors">
-                    <span className="sr-only">Facebook</span>
-                    <Facebook className="h-6 w-6" />
-                  </a>
-                  <a href="https://github.com" className="text-white hover:text-blue-200 transition-colors">
+                 
+                  <a href="https://github.com/sreechand-nadella" className="text-white hover:text-blue-200 transition-colors">
                     <span className="sr-only">GitHub</span>
                     <Github className="h-6 w-6" />
                   </a>
-                  <a href="https://twitter.com" className="text-white hover:text-blue-200 transition-colors">
+                  <a href="https://x.com/sreechand2000?t=z3aau9vyNWLe5a_Okku7uA&s=09" className="text-white hover:text-blue-200 transition-colors">
                     <span className="sr-only">Twitter</span>
                     <Twitter className="h-6 w-6" />
                   </a>

@@ -33,24 +33,11 @@ const education = [
   {
     degree: 'Bachelor of Technology, Computer Science',
     schoolName: 'Vellore Institute of Technology (VIT)',
-    startDate: 'Aug 2018',
-    endDate: 'May 2022',
     description: 'Specialization in Artificial Intelligence and Machine Learning',
-    details: 'GPA: 9.5/10.0',
+    details: 'GPA: 4.0/4.0',
     icon: FaUniversity,
     color: '#BB1622',
     bgColor: '#FEEAE6',
-  },
-  {
-    degree: 'High School Diploma',
-    schoolName: 'Delhi Public School (DPS)',
-    startDate: 'Aug 2016',
-    endDate: 'May 2018',
-    description: 'Specialization in Science and Mathematics',
-    details: 'Percentage: 95%',
-    icon: FaSchool,
-    color: '#0072CE',
-    bgColor: '#E6F0FA',
   }
 ]
 

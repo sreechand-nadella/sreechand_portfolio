@@ -52,7 +52,7 @@ export default function Home() {
           <ul role="list" className="mt-8 flex gap-6">
             <li>
               <Link
-                href="https://twitter.com/yourusername"
+                href="https://x.com/sreechand2000?t=z3aau9vyNWLe5a_Okku7uA&s=09"
                 className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 transition-colors duration-200"
               >
                 <Twitter className="w-6 h-6" />
@@ -60,7 +60,7 @@ export default function Home() {
             </li>
             <li>
               <Link
-                href="https://github.com/yourusername"
+                href="https://github.com/sreechand-nadella"
                 className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 transition-colors duration-200"
               >
                 <Github className="w-6 h-6" />
@@ -68,7 +68,7 @@ export default function Home() {
             </li>
             <li>
               <Link
-                href="https://linkedin.com/in/yourusername"
+                href="http://www.linkedin.com/in/sreechandnadella"
                 className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 transition-colors duration-200"
               >
                 <Linkedin className="w-6 h-6" />

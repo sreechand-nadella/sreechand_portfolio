@@ -1,6 +1,25 @@
 import { NextResponse } from 'next/server'
 
 const experiences = [
+
+  {
+
+  },
+  {
+    title: 'Full-stack Developer',
+    company: 'BigCommerce',
+    date: ' Present',
+    description: [
+     ' Developed a high-performance front-end with React and Redux, improving page load times by 9% through advanced state management and code refactoring, enhancing user experience and reducing bounce rates.',
+' Engineered a robust microservices-based architecture utilizing Java (Spring Boot), J2EE, and Spring Cloud, enabling seamless independent deployments, horizontal scaling, and modular service management across the platform.',
+' Optimized data persistence layers by integrating Hibernate for efficient ORM and MySQL for relational database management, improving query performance by 30% and ensuring 99.9% transactional consistency and high availability across distributed services, resulting in faster data retrieval and reduced system downtime.',
+' Implemented enterprise-grade security protocols with Spring Security, leveraging role-based access control (RBAC) and OAuth2 authentication, enhancing API security and user data protection, reducing unauthorized access incidents by 40% and ensuring compliance with industry standards.',
+' Deployed scalable containerized microservices with Docker and automated CI/CD pipelines, enabling continuous delivery and zero downtime while minimizing manual intervention.',
+' Leveraged Azure services such as Azure Virtual Machines for autoscaling compute resources, Azure Blob Storage for secure and scalable data storage, and Azure Functions for serverless computing, optimizing cost-efficiency by 30%, improving platform performance by 25%, and enhancing fault tolerance, reducing system downtime by 15%.'
+    ],
+    location: 'USA',
+    link: { url: 'https://www.bigcommerce.com/', label: 'bigcommerce.com' },
+  },
   {
     title: 'Jr. Software Developer',
     company: 'Tandem Arc',
@@ -47,7 +66,7 @@ const experiences = [
     link: { url: 'https://innovate.research.ufl.edu', label: 'UF Innovate' },
   },
   {
-    title: 'Software Developer Intern',
+    title: 'Junior Software Developer',
     company: 'Shiash Info Solutions',
     date: 'Jan 2022 - Jun 2022',
     description: [
@@ -57,6 +76,23 @@ const experiences = [
     location: 'India',
     link: { url: 'https://www.shiashinfosolutions.com', label: 'Shiash Info Solutions' },
   },
+  {
+    title: 'Full-stack Developer',
+    company: 'Maxgen Technologies ',
+    date: 'Mar 2020 - Dec 2021',
+    description: [
+     ' Designed scalable microservices-based RESTful APIs using Java, Spring Boot, and Spring Cloud, leading to a 20% reduction in response times and enhanced performance with circuit breakers and service meshes for resilience.',
+'Enhanced data persistence performance by 30% through advanced Hibernate and JDBC tuning, caching strategies, and database partitioning; managed MySQL and PostgreSQL databases with effective indexing, partitioning, and replication for high availability.',
+'Automated CI/CD pipelines with Jenkins, Maven, and Docker reducing deployment time by 40%, leveraging Kubernetes for zero-downtime deployments and implementing canary and blue-green strategies for seamless rollouts.',
+'Integrated secure authentication protocols (OAuth 2.0, JWT, SAML) and implemented RBAC and ABAC for robust endpoint security in line with industry standards.',
+'Deployed containerized applications with Docker and managed multi-node Kubernetes clusters, improving fault tolerance and scalability by 30%, while implementing advanced networking and security features, resulting in a 25% reduction in system downtime.',
+'Spearheaded comprehensive testing using JUnit, Mockito, JMeter, and automated UI tests with Selenium; improved code reliability and reduced production defects by 25% with microservices contract testing.',
+'Optimized client-server interactions by integrating JavaScript and front-end frameworks with RESTful APIs, achieving a 15% boost in performance through server-side rendering (SSR) and PWA features.'
+    ],
+    location: 'India',
+    link: { url: 'https://maxgentechnologies.com/', label: 'Maxgen Technologies' },
+  },
+
 ]
 
 export async function GET() {
